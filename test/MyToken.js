@@ -1,6 +1,9 @@
 const {ethers} = require('hardhat')
 const {expect} = require('chai')
 
+// import {ethers} from 'hardhat'
+// import {expect} from 'chai'
+
 async function deploy() {
     const myTokenFactory = await ethers.getContractFactory('MyToken')
     const myToken = await myTokenFactory.deploy()

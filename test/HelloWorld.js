@@ -1,5 +1,8 @@
-import {ethers} from 'hardhat'
-import {assert} from 'assert'
+// import {ethers} from 'hardhat'
+// import {assert} from 'assert'
+
+const {ethers} = require('hardhat')
+const {assert} = require('assert')
 
 describe('Hello world', function(){
     it ('has initial message', async () => {
